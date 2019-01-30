@@ -58,13 +58,13 @@ add_executable(${PROJECT_NAME} ${SRC_LIST})
 
 include(FindPkgConfig)
 
-pkg_check_modules(GLFW3 REQUIRED glfw3)
-include_directories(${GLFW3_INCLUDE_DIRS})
+#pkg_check_modules(GLFW3 REQUIRED glfw3)
+#include_directories(${GLFW3_INCLUDE_DIRS})
 target_link_libraries (${PROJECT_NAME} ${ALL_LIBS})
 
-pkg_check_modules(GLEW REQUIRED glew)
-include_directories(${GLEW_INCLUDE_DIRS})
-target_link_libraries (${PROJECT_NAME} ${ALL_LIBS})
+#pkg_check_modules(GLEW REQUIRED glew)
+#include_directories(${GLEW_INCLUDE_DIRS})
+#target_link_libraries (${PROJECT_NAME} ${ALL_LIBS})
 
 if (NOT APPLE)
   pkg_check_modules(GL REQUIRED gl)
