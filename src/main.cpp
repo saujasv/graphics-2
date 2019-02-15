@@ -1,6 +1,7 @@
 #include "main.h"
 #include "timer.h"
 #include "ball.h"
+#include "sea.h"
 
 using namespace std;
 
@@ -13,7 +14,9 @@ GLFWwindow *window;
 **************************/
 
 Ball ball1;
-bool cam = true;
+Sea s;
+int cam = 0;
+int ticks_since_view_change = 0;
 
 float screen_zoom = 1, screen_center_x = 0, screen_center_y = 0;
 float camera_rotation_angle = 0;
@@ -30,27 +33,39 @@ void draw() {
     // Don't change unless you know what you are doing
     glUseProgram (programID);
 
-    // // Eye - Location of camera. Don't change unless you are sure!!
-    // if (cam) {
-    //     glm::vec3 eye (1, 2, 0.5);
-    //     glm::vec3 target (0, 0, 0);
-    // }
-    // else {
-    //     glm::vec3 eye (0, 0, 0);
-    //     glm::vec3 target (0, 1, 0);
-    // }
-    // // Target - Where is the camera looking at.  Don't change unless you are sure!!
-    // glm::vec3 target (2, 3, 4);
-    // Up - Up vector defines tilt of camera.  Don't change unless you are sure!!
+    ticks_since_view_change++;
+
+    glm::vec3 eye, target;
+    if (cam == 0) // Plane view
+    {
+        eye = glm::vec3(ball1.position.x + 0, ball1.position.y + 0, ball1.position.z - 1);
+        target = glm::vec3(ball1.position.x + 0, ball1.position.y + 0, ball1.position.z - 2);
+    }
+    else if (cam == 1) // Top view
+    {
+        eye = glm::vec3(ball1.position.x + 0, ball1.position.y + 6, ball1.position.z + 0.001);
+        target = glm::vec3(ball1.position.x + 0, ball1.position.y + 0, ball1.position.z + 0);
+    }
+    else if (cam == 2) // Tower view
+    {
+        eye = glm::vec3(ball1.position.x + 3, ball1.position.y + 3, ball1.position.z + 3);
+        target = glm::vec3(ball1.position.x + 0, ball1.position.y + 0, ball1.position.z + 0);
+    }
+    else if (cam == 3) // Follow cam
+    {
+        eye = glm::vec3(ball1.position.x + 0, ball1.position.y + 2, ball1.position.z + 3);
+        target = glm::vec3(ball1.position.x + 0, ball1.position.y + 0, ball1.position.z + 0);
+    }
+
     glm::vec3 up (0, 1, 0);
 
     // Compute Camera matrix (view)
-    if (cam)
-        Matrices.view = glm::lookAt(glm::vec3(5, 5, 5), glm::vec3(0, 0, 0), up );
-    else
-        Matrices.view = glm::lookAt(glm::vec3(0, 0, 0), glm::vec3(0, 0, 1), up ); // Rotating Camera for 3D
+    // if (cam)
+    //     Matrices.view = glm::lookAt(glm::vec3(5, 5, 5), glm::vec3(0, 0, 0), up );
+    // else
+    //     Matrices.view = glm::lookAt(glm::vec3(0, 0, 0), glm::vec3(0, 0, 1), up ); // Rotating Camera for 3D
     // Don't change unless you are sure!!
-    // Matrices.view = glm::lookAt(glm::vec3(0, 0, 3), glm::vec3(0, 0, 0), glm::vec3(0, 1, 0)); // Fixed camera for 2D (ortho) in XY plane
+    Matrices.view = glm::lookAt(eye, target, up); // Fixed camera for 2D (ortho) in XY plane
 
     // Compute ViewProject matrix as view/camera might not be changed for this frame (basic scenario)
     // Don't change unless you are sure!!
@@ -63,14 +78,16 @@ void draw() {
 
     // Scene render
     ball1.draw(VP);
+    s.draw(VP);
 }
 
 void tick_input(GLFWwindow *window) {
     int left  = glfwGetKey(window, GLFW_KEY_LEFT);
     int right = glfwGetKey(window, GLFW_KEY_RIGHT);
-    int c = glfwGetKey(window, GLFW_KEY_C);
-    if (c) {
-        cam = !cam;
+    int v = glfwGetKey(window, GLFW_KEY_V);
+    if (v && ticks_since_view_change >= 20) {
+        cam = (cam + 1) % 4;
+        ticks_since_view_change = 0;
     }
 }
 
@@ -85,7 +102,8 @@ void initGL(GLFWwindow *window, int width, int height) {
     /* Objects should be created before any other gl function and shaders */
     // Create the models
 
-    ball1       = Ball(0, 0, COLOR_RED);
+    ball1 = Ball(0, 0, COLOR_BLACK);
+    s = Sea(0, 0);
 
     // Create and compile our GLSL program from the shaders
     programID = LoadShaders("Sample_GL.vert", "Sample_GL.frag");
@@ -151,7 +169,7 @@ void reset_screen() {
     float left   = screen_center_x - 4 / screen_zoom;
     float right  = screen_center_x + 4 / screen_zoom;
     Matrices.projection = glm::perspective(
-        glm::radians(45.0f), // The vertical Field of View, in radians: the amount of "zoom". Think "camera lens". Usually between 90° (extra wide) and 30° (quite zoomed in)
+        glm::radians(90.0f), // The vertical Field of View, in radians: the amount of "zoom". Think "camera lens". Usually between 90° (extra wide) and 30° (quite zoomed in)
         4.0f / 3.0f,       // Aspect Ratio. Depends on the size of your window. Notice that 4/3 == 800/600 == 1280/960, sounds familiar ?
         0.1f,              // Near clipping plane. Keep as big as possible, or you'll get precision issues.
         100.0f             // Far clipping plane. Keep as little as possible.

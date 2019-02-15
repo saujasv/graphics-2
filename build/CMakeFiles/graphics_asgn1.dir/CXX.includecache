@@ -739,6 +739,8 @@ timer.h
 /Users/saujasvs/Documents/spring2019/graphics/assignment_2/src/timer.h
 ball.h
 /Users/saujasvs/Documents/spring2019/graphics/assignment_2/src/ball.h
+sea.h
+/Users/saujasvs/Documents/spring2019/graphics/assignment_2/src/sea.h
 
 /Users/saujasvs/Documents/spring2019/graphics/assignment_2/src/main.h
 iostream
@@ -759,6 +761,10 @@ glm/gtx/transform.hpp
 -
 glm/gtc/matrix_transform.hpp
 -
+
+/Users/saujasvs/Documents/spring2019/graphics/assignment_2/src/sea.h
+main.h
+/Users/saujasvs/Documents/spring2019/graphics/assignment_2/src/main.h
 
 /Users/saujasvs/Documents/spring2019/graphics/assignment_2/src/timer.h
 
