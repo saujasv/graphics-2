@@ -57,22 +57,35 @@ include CMakeFiles/graphics_asgn1.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/graphics_asgn1.dir/flags.make
 
-CMakeFiles/graphics_asgn1.dir/src/ball.cpp.o: CMakeFiles/graphics_asgn1.dir/flags.make
-CMakeFiles/graphics_asgn1.dir/src/ball.cpp.o: ../src/ball.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/saujasvs/Documents/spring2019/graphics/assignment_2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/graphics_asgn1.dir/src/ball.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/graphics_asgn1.dir/src/ball.cpp.o -c /Users/saujasvs/Documents/spring2019/graphics/assignment_2/src/ball.cpp
+CMakeFiles/graphics_asgn1.dir/src/bomb.cpp.o: CMakeFiles/graphics_asgn1.dir/flags.make
+CMakeFiles/graphics_asgn1.dir/src/bomb.cpp.o: ../src/bomb.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/saujasvs/Documents/spring2019/graphics/assignment_2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/graphics_asgn1.dir/src/bomb.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/graphics_asgn1.dir/src/bomb.cpp.o -c /Users/saujasvs/Documents/spring2019/graphics/assignment_2/src/bomb.cpp
 
-CMakeFiles/graphics_asgn1.dir/src/ball.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/graphics_asgn1.dir/src/ball.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/saujasvs/Documents/spring2019/graphics/assignment_2/src/ball.cpp > CMakeFiles/graphics_asgn1.dir/src/ball.cpp.i
+CMakeFiles/graphics_asgn1.dir/src/bomb.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/graphics_asgn1.dir/src/bomb.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/saujasvs/Documents/spring2019/graphics/assignment_2/src/bomb.cpp > CMakeFiles/graphics_asgn1.dir/src/bomb.cpp.i
 
-CMakeFiles/graphics_asgn1.dir/src/ball.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/graphics_asgn1.dir/src/ball.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/saujasvs/Documents/spring2019/graphics/assignment_2/src/ball.cpp -o CMakeFiles/graphics_asgn1.dir/src/ball.cpp.s
+CMakeFiles/graphics_asgn1.dir/src/bomb.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/graphics_asgn1.dir/src/bomb.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/saujasvs/Documents/spring2019/graphics/assignment_2/src/bomb.cpp -o CMakeFiles/graphics_asgn1.dir/src/bomb.cpp.s
+
+CMakeFiles/graphics_asgn1.dir/src/checkpoint.cpp.o: CMakeFiles/graphics_asgn1.dir/flags.make
+CMakeFiles/graphics_asgn1.dir/src/checkpoint.cpp.o: ../src/checkpoint.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/saujasvs/Documents/spring2019/graphics/assignment_2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/graphics_asgn1.dir/src/checkpoint.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/graphics_asgn1.dir/src/checkpoint.cpp.o -c /Users/saujasvs/Documents/spring2019/graphics/assignment_2/src/checkpoint.cpp
+
+CMakeFiles/graphics_asgn1.dir/src/checkpoint.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/graphics_asgn1.dir/src/checkpoint.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/saujasvs/Documents/spring2019/graphics/assignment_2/src/checkpoint.cpp > CMakeFiles/graphics_asgn1.dir/src/checkpoint.cpp.i
+
+CMakeFiles/graphics_asgn1.dir/src/checkpoint.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/graphics_asgn1.dir/src/checkpoint.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/saujasvs/Documents/spring2019/graphics/assignment_2/src/checkpoint.cpp -o CMakeFiles/graphics_asgn1.dir/src/checkpoint.cpp.s
 
 CMakeFiles/graphics_asgn1.dir/src/color.cpp.o: CMakeFiles/graphics_asgn1.dir/flags.make
 CMakeFiles/graphics_asgn1.dir/src/color.cpp.o: ../src/color.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/saujasvs/Documents/spring2019/graphics/assignment_2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/graphics_asgn1.dir/src/color.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/saujasvs/Documents/spring2019/graphics/assignment_2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/graphics_asgn1.dir/src/color.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/graphics_asgn1.dir/src/color.cpp.o -c /Users/saujasvs/Documents/spring2019/graphics/assignment_2/src/color.cpp
 
 CMakeFiles/graphics_asgn1.dir/src/color.cpp.i: cmake_force
@@ -83,9 +96,35 @@ CMakeFiles/graphics_asgn1.dir/src/color.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/graphics_asgn1.dir/src/color.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/saujasvs/Documents/spring2019/graphics/assignment_2/src/color.cpp -o CMakeFiles/graphics_asgn1.dir/src/color.cpp.s
 
+CMakeFiles/graphics_asgn1.dir/src/compass.cpp.o: CMakeFiles/graphics_asgn1.dir/flags.make
+CMakeFiles/graphics_asgn1.dir/src/compass.cpp.o: ../src/compass.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/saujasvs/Documents/spring2019/graphics/assignment_2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/graphics_asgn1.dir/src/compass.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/graphics_asgn1.dir/src/compass.cpp.o -c /Users/saujasvs/Documents/spring2019/graphics/assignment_2/src/compass.cpp
+
+CMakeFiles/graphics_asgn1.dir/src/compass.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/graphics_asgn1.dir/src/compass.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/saujasvs/Documents/spring2019/graphics/assignment_2/src/compass.cpp > CMakeFiles/graphics_asgn1.dir/src/compass.cpp.i
+
+CMakeFiles/graphics_asgn1.dir/src/compass.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/graphics_asgn1.dir/src/compass.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/saujasvs/Documents/spring2019/graphics/assignment_2/src/compass.cpp -o CMakeFiles/graphics_asgn1.dir/src/compass.cpp.s
+
+CMakeFiles/graphics_asgn1.dir/src/display.cpp.o: CMakeFiles/graphics_asgn1.dir/flags.make
+CMakeFiles/graphics_asgn1.dir/src/display.cpp.o: ../src/display.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/saujasvs/Documents/spring2019/graphics/assignment_2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/graphics_asgn1.dir/src/display.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/graphics_asgn1.dir/src/display.cpp.o -c /Users/saujasvs/Documents/spring2019/graphics/assignment_2/src/display.cpp
+
+CMakeFiles/graphics_asgn1.dir/src/display.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/graphics_asgn1.dir/src/display.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/saujasvs/Documents/spring2019/graphics/assignment_2/src/display.cpp > CMakeFiles/graphics_asgn1.dir/src/display.cpp.i
+
+CMakeFiles/graphics_asgn1.dir/src/display.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/graphics_asgn1.dir/src/display.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/saujasvs/Documents/spring2019/graphics/assignment_2/src/display.cpp -o CMakeFiles/graphics_asgn1.dir/src/display.cpp.s
+
 CMakeFiles/graphics_asgn1.dir/src/input.cpp.o: CMakeFiles/graphics_asgn1.dir/flags.make
 CMakeFiles/graphics_asgn1.dir/src/input.cpp.o: ../src/input.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/saujasvs/Documents/spring2019/graphics/assignment_2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/graphics_asgn1.dir/src/input.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/saujasvs/Documents/spring2019/graphics/assignment_2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/graphics_asgn1.dir/src/input.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/graphics_asgn1.dir/src/input.cpp.o -c /Users/saujasvs/Documents/spring2019/graphics/assignment_2/src/input.cpp
 
 CMakeFiles/graphics_asgn1.dir/src/input.cpp.i: cmake_force
@@ -98,7 +137,7 @@ CMakeFiles/graphics_asgn1.dir/src/input.cpp.s: cmake_force
 
 CMakeFiles/graphics_asgn1.dir/src/main.cpp.o: CMakeFiles/graphics_asgn1.dir/flags.make
 CMakeFiles/graphics_asgn1.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/saujasvs/Documents/spring2019/graphics/assignment_2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/graphics_asgn1.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/saujasvs/Documents/spring2019/graphics/assignment_2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/graphics_asgn1.dir/src/main.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/graphics_asgn1.dir/src/main.cpp.o -c /Users/saujasvs/Documents/spring2019/graphics/assignment_2/src/main.cpp
 
 CMakeFiles/graphics_asgn1.dir/src/main.cpp.i: cmake_force
@@ -109,9 +148,22 @@ CMakeFiles/graphics_asgn1.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/graphics_asgn1.dir/src/main.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/saujasvs/Documents/spring2019/graphics/assignment_2/src/main.cpp -o CMakeFiles/graphics_asgn1.dir/src/main.cpp.s
 
+CMakeFiles/graphics_asgn1.dir/src/missile.cpp.o: CMakeFiles/graphics_asgn1.dir/flags.make
+CMakeFiles/graphics_asgn1.dir/src/missile.cpp.o: ../src/missile.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/saujasvs/Documents/spring2019/graphics/assignment_2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/graphics_asgn1.dir/src/missile.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/graphics_asgn1.dir/src/missile.cpp.o -c /Users/saujasvs/Documents/spring2019/graphics/assignment_2/src/missile.cpp
+
+CMakeFiles/graphics_asgn1.dir/src/missile.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/graphics_asgn1.dir/src/missile.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/saujasvs/Documents/spring2019/graphics/assignment_2/src/missile.cpp > CMakeFiles/graphics_asgn1.dir/src/missile.cpp.i
+
+CMakeFiles/graphics_asgn1.dir/src/missile.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/graphics_asgn1.dir/src/missile.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/saujasvs/Documents/spring2019/graphics/assignment_2/src/missile.cpp -o CMakeFiles/graphics_asgn1.dir/src/missile.cpp.s
+
 CMakeFiles/graphics_asgn1.dir/src/nonedit.cpp.o: CMakeFiles/graphics_asgn1.dir/flags.make
 CMakeFiles/graphics_asgn1.dir/src/nonedit.cpp.o: ../src/nonedit.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/saujasvs/Documents/spring2019/graphics/assignment_2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/graphics_asgn1.dir/src/nonedit.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/saujasvs/Documents/spring2019/graphics/assignment_2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/graphics_asgn1.dir/src/nonedit.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/graphics_asgn1.dir/src/nonedit.cpp.o -c /Users/saujasvs/Documents/spring2019/graphics/assignment_2/src/nonedit.cpp
 
 CMakeFiles/graphics_asgn1.dir/src/nonedit.cpp.i: cmake_force
@@ -124,7 +176,7 @@ CMakeFiles/graphics_asgn1.dir/src/nonedit.cpp.s: cmake_force
 
 CMakeFiles/graphics_asgn1.dir/src/other_handlers.cpp.o: CMakeFiles/graphics_asgn1.dir/flags.make
 CMakeFiles/graphics_asgn1.dir/src/other_handlers.cpp.o: ../src/other_handlers.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/saujasvs/Documents/spring2019/graphics/assignment_2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/graphics_asgn1.dir/src/other_handlers.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/saujasvs/Documents/spring2019/graphics/assignment_2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/graphics_asgn1.dir/src/other_handlers.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/graphics_asgn1.dir/src/other_handlers.cpp.o -c /Users/saujasvs/Documents/spring2019/graphics/assignment_2/src/other_handlers.cpp
 
 CMakeFiles/graphics_asgn1.dir/src/other_handlers.cpp.i: cmake_force
@@ -135,9 +187,48 @@ CMakeFiles/graphics_asgn1.dir/src/other_handlers.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/graphics_asgn1.dir/src/other_handlers.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/saujasvs/Documents/spring2019/graphics/assignment_2/src/other_handlers.cpp -o CMakeFiles/graphics_asgn1.dir/src/other_handlers.cpp.s
 
+CMakeFiles/graphics_asgn1.dir/src/parachute.cpp.o: CMakeFiles/graphics_asgn1.dir/flags.make
+CMakeFiles/graphics_asgn1.dir/src/parachute.cpp.o: ../src/parachute.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/saujasvs/Documents/spring2019/graphics/assignment_2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/graphics_asgn1.dir/src/parachute.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/graphics_asgn1.dir/src/parachute.cpp.o -c /Users/saujasvs/Documents/spring2019/graphics/assignment_2/src/parachute.cpp
+
+CMakeFiles/graphics_asgn1.dir/src/parachute.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/graphics_asgn1.dir/src/parachute.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/saujasvs/Documents/spring2019/graphics/assignment_2/src/parachute.cpp > CMakeFiles/graphics_asgn1.dir/src/parachute.cpp.i
+
+CMakeFiles/graphics_asgn1.dir/src/parachute.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/graphics_asgn1.dir/src/parachute.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/saujasvs/Documents/spring2019/graphics/assignment_2/src/parachute.cpp -o CMakeFiles/graphics_asgn1.dir/src/parachute.cpp.s
+
+CMakeFiles/graphics_asgn1.dir/src/plane.cpp.o: CMakeFiles/graphics_asgn1.dir/flags.make
+CMakeFiles/graphics_asgn1.dir/src/plane.cpp.o: ../src/plane.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/saujasvs/Documents/spring2019/graphics/assignment_2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/graphics_asgn1.dir/src/plane.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/graphics_asgn1.dir/src/plane.cpp.o -c /Users/saujasvs/Documents/spring2019/graphics/assignment_2/src/plane.cpp
+
+CMakeFiles/graphics_asgn1.dir/src/plane.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/graphics_asgn1.dir/src/plane.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/saujasvs/Documents/spring2019/graphics/assignment_2/src/plane.cpp > CMakeFiles/graphics_asgn1.dir/src/plane.cpp.i
+
+CMakeFiles/graphics_asgn1.dir/src/plane.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/graphics_asgn1.dir/src/plane.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/saujasvs/Documents/spring2019/graphics/assignment_2/src/plane.cpp -o CMakeFiles/graphics_asgn1.dir/src/plane.cpp.s
+
+CMakeFiles/graphics_asgn1.dir/src/rings.cpp.o: CMakeFiles/graphics_asgn1.dir/flags.make
+CMakeFiles/graphics_asgn1.dir/src/rings.cpp.o: ../src/rings.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/saujasvs/Documents/spring2019/graphics/assignment_2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/graphics_asgn1.dir/src/rings.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/graphics_asgn1.dir/src/rings.cpp.o -c /Users/saujasvs/Documents/spring2019/graphics/assignment_2/src/rings.cpp
+
+CMakeFiles/graphics_asgn1.dir/src/rings.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/graphics_asgn1.dir/src/rings.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/saujasvs/Documents/spring2019/graphics/assignment_2/src/rings.cpp > CMakeFiles/graphics_asgn1.dir/src/rings.cpp.i
+
+CMakeFiles/graphics_asgn1.dir/src/rings.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/graphics_asgn1.dir/src/rings.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/saujasvs/Documents/spring2019/graphics/assignment_2/src/rings.cpp -o CMakeFiles/graphics_asgn1.dir/src/rings.cpp.s
+
 CMakeFiles/graphics_asgn1.dir/src/sea.cpp.o: CMakeFiles/graphics_asgn1.dir/flags.make
 CMakeFiles/graphics_asgn1.dir/src/sea.cpp.o: ../src/sea.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/saujasvs/Documents/spring2019/graphics/assignment_2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/graphics_asgn1.dir/src/sea.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/saujasvs/Documents/spring2019/graphics/assignment_2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/graphics_asgn1.dir/src/sea.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/graphics_asgn1.dir/src/sea.cpp.o -c /Users/saujasvs/Documents/spring2019/graphics/assignment_2/src/sea.cpp
 
 CMakeFiles/graphics_asgn1.dir/src/sea.cpp.i: cmake_force
@@ -150,7 +241,7 @@ CMakeFiles/graphics_asgn1.dir/src/sea.cpp.s: cmake_force
 
 CMakeFiles/graphics_asgn1.dir/src/timer.cpp.o: CMakeFiles/graphics_asgn1.dir/flags.make
 CMakeFiles/graphics_asgn1.dir/src/timer.cpp.o: ../src/timer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/saujasvs/Documents/spring2019/graphics/assignment_2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/graphics_asgn1.dir/src/timer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/saujasvs/Documents/spring2019/graphics/assignment_2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/graphics_asgn1.dir/src/timer.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/graphics_asgn1.dir/src/timer.cpp.o -c /Users/saujasvs/Documents/spring2019/graphics/assignment_2/src/timer.cpp
 
 CMakeFiles/graphics_asgn1.dir/src/timer.cpp.i: cmake_force
@@ -161,9 +252,22 @@ CMakeFiles/graphics_asgn1.dir/src/timer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/graphics_asgn1.dir/src/timer.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/saujasvs/Documents/spring2019/graphics/assignment_2/src/timer.cpp -o CMakeFiles/graphics_asgn1.dir/src/timer.cpp.s
 
+CMakeFiles/graphics_asgn1.dir/src/topup.cpp.o: CMakeFiles/graphics_asgn1.dir/flags.make
+CMakeFiles/graphics_asgn1.dir/src/topup.cpp.o: ../src/topup.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/saujasvs/Documents/spring2019/graphics/assignment_2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/graphics_asgn1.dir/src/topup.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/graphics_asgn1.dir/src/topup.cpp.o -c /Users/saujasvs/Documents/spring2019/graphics/assignment_2/src/topup.cpp
+
+CMakeFiles/graphics_asgn1.dir/src/topup.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/graphics_asgn1.dir/src/topup.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/saujasvs/Documents/spring2019/graphics/assignment_2/src/topup.cpp > CMakeFiles/graphics_asgn1.dir/src/topup.cpp.i
+
+CMakeFiles/graphics_asgn1.dir/src/topup.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/graphics_asgn1.dir/src/topup.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/saujasvs/Documents/spring2019/graphics/assignment_2/src/topup.cpp -o CMakeFiles/graphics_asgn1.dir/src/topup.cpp.s
+
 CMakeFiles/graphics_asgn1.dir/src/utils.cpp.o: CMakeFiles/graphics_asgn1.dir/flags.make
 CMakeFiles/graphics_asgn1.dir/src/utils.cpp.o: ../src/utils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/saujasvs/Documents/spring2019/graphics/assignment_2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/graphics_asgn1.dir/src/utils.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/saujasvs/Documents/spring2019/graphics/assignment_2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/graphics_asgn1.dir/src/utils.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/graphics_asgn1.dir/src/utils.cpp.o -c /Users/saujasvs/Documents/spring2019/graphics/assignment_2/src/utils.cpp
 
 CMakeFiles/graphics_asgn1.dir/src/utils.cpp.i: cmake_force
@@ -174,35 +278,66 @@ CMakeFiles/graphics_asgn1.dir/src/utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/graphics_asgn1.dir/src/utils.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/saujasvs/Documents/spring2019/graphics/assignment_2/src/utils.cpp -o CMakeFiles/graphics_asgn1.dir/src/utils.cpp.s
 
+CMakeFiles/graphics_asgn1.dir/src/volcano.cpp.o: CMakeFiles/graphics_asgn1.dir/flags.make
+CMakeFiles/graphics_asgn1.dir/src/volcano.cpp.o: ../src/volcano.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/saujasvs/Documents/spring2019/graphics/assignment_2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/graphics_asgn1.dir/src/volcano.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/graphics_asgn1.dir/src/volcano.cpp.o -c /Users/saujasvs/Documents/spring2019/graphics/assignment_2/src/volcano.cpp
+
+CMakeFiles/graphics_asgn1.dir/src/volcano.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/graphics_asgn1.dir/src/volcano.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/saujasvs/Documents/spring2019/graphics/assignment_2/src/volcano.cpp > CMakeFiles/graphics_asgn1.dir/src/volcano.cpp.i
+
+CMakeFiles/graphics_asgn1.dir/src/volcano.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/graphics_asgn1.dir/src/volcano.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/saujasvs/Documents/spring2019/graphics/assignment_2/src/volcano.cpp -o CMakeFiles/graphics_asgn1.dir/src/volcano.cpp.s
+
 # Object files for target graphics_asgn1
 graphics_asgn1_OBJECTS = \
-"CMakeFiles/graphics_asgn1.dir/src/ball.cpp.o" \
+"CMakeFiles/graphics_asgn1.dir/src/bomb.cpp.o" \
+"CMakeFiles/graphics_asgn1.dir/src/checkpoint.cpp.o" \
 "CMakeFiles/graphics_asgn1.dir/src/color.cpp.o" \
+"CMakeFiles/graphics_asgn1.dir/src/compass.cpp.o" \
+"CMakeFiles/graphics_asgn1.dir/src/display.cpp.o" \
 "CMakeFiles/graphics_asgn1.dir/src/input.cpp.o" \
 "CMakeFiles/graphics_asgn1.dir/src/main.cpp.o" \
+"CMakeFiles/graphics_asgn1.dir/src/missile.cpp.o" \
 "CMakeFiles/graphics_asgn1.dir/src/nonedit.cpp.o" \
 "CMakeFiles/graphics_asgn1.dir/src/other_handlers.cpp.o" \
+"CMakeFiles/graphics_asgn1.dir/src/parachute.cpp.o" \
+"CMakeFiles/graphics_asgn1.dir/src/plane.cpp.o" \
+"CMakeFiles/graphics_asgn1.dir/src/rings.cpp.o" \
 "CMakeFiles/graphics_asgn1.dir/src/sea.cpp.o" \
 "CMakeFiles/graphics_asgn1.dir/src/timer.cpp.o" \
-"CMakeFiles/graphics_asgn1.dir/src/utils.cpp.o"
+"CMakeFiles/graphics_asgn1.dir/src/topup.cpp.o" \
+"CMakeFiles/graphics_asgn1.dir/src/utils.cpp.o" \
+"CMakeFiles/graphics_asgn1.dir/src/volcano.cpp.o"
 
 # External object files for target graphics_asgn1
 graphics_asgn1_EXTERNAL_OBJECTS =
 
-graphics_asgn1: CMakeFiles/graphics_asgn1.dir/src/ball.cpp.o
+graphics_asgn1: CMakeFiles/graphics_asgn1.dir/src/bomb.cpp.o
+graphics_asgn1: CMakeFiles/graphics_asgn1.dir/src/checkpoint.cpp.o
 graphics_asgn1: CMakeFiles/graphics_asgn1.dir/src/color.cpp.o
+graphics_asgn1: CMakeFiles/graphics_asgn1.dir/src/compass.cpp.o
+graphics_asgn1: CMakeFiles/graphics_asgn1.dir/src/display.cpp.o
 graphics_asgn1: CMakeFiles/graphics_asgn1.dir/src/input.cpp.o
 graphics_asgn1: CMakeFiles/graphics_asgn1.dir/src/main.cpp.o
+graphics_asgn1: CMakeFiles/graphics_asgn1.dir/src/missile.cpp.o
 graphics_asgn1: CMakeFiles/graphics_asgn1.dir/src/nonedit.cpp.o
 graphics_asgn1: CMakeFiles/graphics_asgn1.dir/src/other_handlers.cpp.o
+graphics_asgn1: CMakeFiles/graphics_asgn1.dir/src/parachute.cpp.o
+graphics_asgn1: CMakeFiles/graphics_asgn1.dir/src/plane.cpp.o
+graphics_asgn1: CMakeFiles/graphics_asgn1.dir/src/rings.cpp.o
 graphics_asgn1: CMakeFiles/graphics_asgn1.dir/src/sea.cpp.o
 graphics_asgn1: CMakeFiles/graphics_asgn1.dir/src/timer.cpp.o
+graphics_asgn1: CMakeFiles/graphics_asgn1.dir/src/topup.cpp.o
 graphics_asgn1: CMakeFiles/graphics_asgn1.dir/src/utils.cpp.o
+graphics_asgn1: CMakeFiles/graphics_asgn1.dir/src/volcano.cpp.o
 graphics_asgn1: CMakeFiles/graphics_asgn1.dir/build.make
 graphics_asgn1: external/glfw-3.1.2/src/libglfw3.a
 graphics_asgn1: external/libGLEW_1130.a
 graphics_asgn1: CMakeFiles/graphics_asgn1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/saujasvs/Documents/spring2019/graphics/assignment_2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable graphics_asgn1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/saujasvs/Documents/spring2019/graphics/assignment_2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX executable graphics_asgn1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/graphics_asgn1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

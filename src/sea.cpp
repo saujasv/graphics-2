@@ -8,12 +8,12 @@ Sea::Sea(float x, float y) {
     // Our vertices. Three consecutive floats give a 3D vertex; Three consecutive vertices give a triangle.
     // A cube has 6 faces with 2 triangles each, so this makes 6*2=12 triangles, and 12*3 vertices
     static const GLfloat sea_vertex_buffer_data[] = {
-        2000.0f, -200.0f, 2000.0f,
-        2000.0f, -200.0f, -2000.0f,
-        -2000.0f, -200.0f, 2000.0f,
-        -2000.0f, -200.0f, -2000.0f,
-        2000.0f, -200.0f, -2000.0f,
-        -2000.0f, -200.0f, 2000.0f
+        5000.0f, -200.0f, 5000.0f,
+        5000.0f, -200.0f, -5000.0f,
+        -5000.0f, -200.0f, 5000.0f,
+        -5000.0f, -200.0f, -5000.0f,
+        5000.0f, -200.0f, -5000.0f,
+        -5000.0f, -200.0f, 5000.0f
     };
 
     this->object = create3DObject(GL_TRIANGLES, 2*3, sea_vertex_buffer_data, COLOR_AQUA, GL_FILL);

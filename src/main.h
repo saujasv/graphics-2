@@ -14,11 +14,21 @@
 #include <glm/gtx/transform.hpp>
 #include <glm/gtc/matrix_transform.hpp>
 
+#include <glm/gtc/matrix_access.hpp>
+#include <glm/gtx/rotate_vector.hpp>
+#include <glm/gtx/vector_angle.hpp>
+#include <glm/gtc/quaternion.hpp>
+#include <glm/gtx/quaternion.hpp>
+
 struct color_t {
     int r;
     int g;
     int b;
 };
+
+#define GRAVITY 0.001
+
+extern bool mouse_pressed;
 
 // nonedit.cpp
 GLFWwindow *initGLFW(int width, int height);
@@ -59,6 +69,7 @@ struct GLMatrices {
 };
 
 extern GLMatrices Matrices;
+extern GLMatrices Matrices2;
 
 // ---- Logic ----
 
@@ -83,5 +94,11 @@ extern const color_t COLOR_BLACK;
 extern const color_t COLOR_BACKGROUND;
 extern const color_t COLOR_SKYBLUE;
 extern const color_t COLOR_AQUA;
+extern const color_t COLOR_DARK_GREY;
+extern const color_t COLOR_GREY;
+extern const color_t COLOR_ORANGE;
+extern const color_t COLOR_BROWN;
+extern const color_t COLOR_BLUE;
+extern const color_t COLOR_YELLOW;
 
 #endif

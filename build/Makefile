@@ -598,32 +598,59 @@ LinearMath/fast:
 	$(MAKE) -f external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/build.make external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/build
 .PHONY : LinearMath/fast
 
-src/ball.o: src/ball.cpp.o
+src/bomb.o: src/bomb.cpp.o
 
-.PHONY : src/ball.o
+.PHONY : src/bomb.o
 
 # target to build an object file
-src/ball.cpp.o:
-	$(MAKE) -f CMakeFiles/graphics_asgn1.dir/build.make CMakeFiles/graphics_asgn1.dir/src/ball.cpp.o
-.PHONY : src/ball.cpp.o
+src/bomb.cpp.o:
+	$(MAKE) -f CMakeFiles/graphics_asgn1.dir/build.make CMakeFiles/graphics_asgn1.dir/src/bomb.cpp.o
+.PHONY : src/bomb.cpp.o
 
-src/ball.i: src/ball.cpp.i
+src/bomb.i: src/bomb.cpp.i
 
-.PHONY : src/ball.i
+.PHONY : src/bomb.i
 
 # target to preprocess a source file
-src/ball.cpp.i:
-	$(MAKE) -f CMakeFiles/graphics_asgn1.dir/build.make CMakeFiles/graphics_asgn1.dir/src/ball.cpp.i
-.PHONY : src/ball.cpp.i
+src/bomb.cpp.i:
+	$(MAKE) -f CMakeFiles/graphics_asgn1.dir/build.make CMakeFiles/graphics_asgn1.dir/src/bomb.cpp.i
+.PHONY : src/bomb.cpp.i
 
-src/ball.s: src/ball.cpp.s
+src/bomb.s: src/bomb.cpp.s
 
-.PHONY : src/ball.s
+.PHONY : src/bomb.s
 
 # target to generate assembly for a file
-src/ball.cpp.s:
-	$(MAKE) -f CMakeFiles/graphics_asgn1.dir/build.make CMakeFiles/graphics_asgn1.dir/src/ball.cpp.s
-.PHONY : src/ball.cpp.s
+src/bomb.cpp.s:
+	$(MAKE) -f CMakeFiles/graphics_asgn1.dir/build.make CMakeFiles/graphics_asgn1.dir/src/bomb.cpp.s
+.PHONY : src/bomb.cpp.s
+
+src/checkpoint.o: src/checkpoint.cpp.o
+
+.PHONY : src/checkpoint.o
+
+# target to build an object file
+src/checkpoint.cpp.o:
+	$(MAKE) -f CMakeFiles/graphics_asgn1.dir/build.make CMakeFiles/graphics_asgn1.dir/src/checkpoint.cpp.o
+.PHONY : src/checkpoint.cpp.o
+
+src/checkpoint.i: src/checkpoint.cpp.i
+
+.PHONY : src/checkpoint.i
+
+# target to preprocess a source file
+src/checkpoint.cpp.i:
+	$(MAKE) -f CMakeFiles/graphics_asgn1.dir/build.make CMakeFiles/graphics_asgn1.dir/src/checkpoint.cpp.i
+.PHONY : src/checkpoint.cpp.i
+
+src/checkpoint.s: src/checkpoint.cpp.s
+
+.PHONY : src/checkpoint.s
+
+# target to generate assembly for a file
+src/checkpoint.cpp.s:
+	$(MAKE) -f CMakeFiles/graphics_asgn1.dir/build.make CMakeFiles/graphics_asgn1.dir/src/checkpoint.cpp.s
+.PHONY : src/checkpoint.cpp.s
 
 src/color.o: src/color.cpp.o
 
@@ -651,6 +678,60 @@ src/color.s: src/color.cpp.s
 src/color.cpp.s:
 	$(MAKE) -f CMakeFiles/graphics_asgn1.dir/build.make CMakeFiles/graphics_asgn1.dir/src/color.cpp.s
 .PHONY : src/color.cpp.s
+
+src/compass.o: src/compass.cpp.o
+
+.PHONY : src/compass.o
+
+# target to build an object file
+src/compass.cpp.o:
+	$(MAKE) -f CMakeFiles/graphics_asgn1.dir/build.make CMakeFiles/graphics_asgn1.dir/src/compass.cpp.o
+.PHONY : src/compass.cpp.o
+
+src/compass.i: src/compass.cpp.i
+
+.PHONY : src/compass.i
+
+# target to preprocess a source file
+src/compass.cpp.i:
+	$(MAKE) -f CMakeFiles/graphics_asgn1.dir/build.make CMakeFiles/graphics_asgn1.dir/src/compass.cpp.i
+.PHONY : src/compass.cpp.i
+
+src/compass.s: src/compass.cpp.s
+
+.PHONY : src/compass.s
+
+# target to generate assembly for a file
+src/compass.cpp.s:
+	$(MAKE) -f CMakeFiles/graphics_asgn1.dir/build.make CMakeFiles/graphics_asgn1.dir/src/compass.cpp.s
+.PHONY : src/compass.cpp.s
+
+src/display.o: src/display.cpp.o
+
+.PHONY : src/display.o
+
+# target to build an object file
+src/display.cpp.o:
+	$(MAKE) -f CMakeFiles/graphics_asgn1.dir/build.make CMakeFiles/graphics_asgn1.dir/src/display.cpp.o
+.PHONY : src/display.cpp.o
+
+src/display.i: src/display.cpp.i
+
+.PHONY : src/display.i
+
+# target to preprocess a source file
+src/display.cpp.i:
+	$(MAKE) -f CMakeFiles/graphics_asgn1.dir/build.make CMakeFiles/graphics_asgn1.dir/src/display.cpp.i
+.PHONY : src/display.cpp.i
+
+src/display.s: src/display.cpp.s
+
+.PHONY : src/display.s
+
+# target to generate assembly for a file
+src/display.cpp.s:
+	$(MAKE) -f CMakeFiles/graphics_asgn1.dir/build.make CMakeFiles/graphics_asgn1.dir/src/display.cpp.s
+.PHONY : src/display.cpp.s
 
 src/input.o: src/input.cpp.o
 
@@ -706,6 +787,33 @@ src/main.cpp.s:
 	$(MAKE) -f CMakeFiles/graphics_asgn1.dir/build.make CMakeFiles/graphics_asgn1.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/missile.o: src/missile.cpp.o
+
+.PHONY : src/missile.o
+
+# target to build an object file
+src/missile.cpp.o:
+	$(MAKE) -f CMakeFiles/graphics_asgn1.dir/build.make CMakeFiles/graphics_asgn1.dir/src/missile.cpp.o
+.PHONY : src/missile.cpp.o
+
+src/missile.i: src/missile.cpp.i
+
+.PHONY : src/missile.i
+
+# target to preprocess a source file
+src/missile.cpp.i:
+	$(MAKE) -f CMakeFiles/graphics_asgn1.dir/build.make CMakeFiles/graphics_asgn1.dir/src/missile.cpp.i
+.PHONY : src/missile.cpp.i
+
+src/missile.s: src/missile.cpp.s
+
+.PHONY : src/missile.s
+
+# target to generate assembly for a file
+src/missile.cpp.s:
+	$(MAKE) -f CMakeFiles/graphics_asgn1.dir/build.make CMakeFiles/graphics_asgn1.dir/src/missile.cpp.s
+.PHONY : src/missile.cpp.s
+
 src/nonedit.o: src/nonedit.cpp.o
 
 .PHONY : src/nonedit.o
@@ -759,6 +867,87 @@ src/other_handlers.s: src/other_handlers.cpp.s
 src/other_handlers.cpp.s:
 	$(MAKE) -f CMakeFiles/graphics_asgn1.dir/build.make CMakeFiles/graphics_asgn1.dir/src/other_handlers.cpp.s
 .PHONY : src/other_handlers.cpp.s
+
+src/parachute.o: src/parachute.cpp.o
+
+.PHONY : src/parachute.o
+
+# target to build an object file
+src/parachute.cpp.o:
+	$(MAKE) -f CMakeFiles/graphics_asgn1.dir/build.make CMakeFiles/graphics_asgn1.dir/src/parachute.cpp.o
+.PHONY : src/parachute.cpp.o
+
+src/parachute.i: src/parachute.cpp.i
+
+.PHONY : src/parachute.i
+
+# target to preprocess a source file
+src/parachute.cpp.i:
+	$(MAKE) -f CMakeFiles/graphics_asgn1.dir/build.make CMakeFiles/graphics_asgn1.dir/src/parachute.cpp.i
+.PHONY : src/parachute.cpp.i
+
+src/parachute.s: src/parachute.cpp.s
+
+.PHONY : src/parachute.s
+
+# target to generate assembly for a file
+src/parachute.cpp.s:
+	$(MAKE) -f CMakeFiles/graphics_asgn1.dir/build.make CMakeFiles/graphics_asgn1.dir/src/parachute.cpp.s
+.PHONY : src/parachute.cpp.s
+
+src/plane.o: src/plane.cpp.o
+
+.PHONY : src/plane.o
+
+# target to build an object file
+src/plane.cpp.o:
+	$(MAKE) -f CMakeFiles/graphics_asgn1.dir/build.make CMakeFiles/graphics_asgn1.dir/src/plane.cpp.o
+.PHONY : src/plane.cpp.o
+
+src/plane.i: src/plane.cpp.i
+
+.PHONY : src/plane.i
+
+# target to preprocess a source file
+src/plane.cpp.i:
+	$(MAKE) -f CMakeFiles/graphics_asgn1.dir/build.make CMakeFiles/graphics_asgn1.dir/src/plane.cpp.i
+.PHONY : src/plane.cpp.i
+
+src/plane.s: src/plane.cpp.s
+
+.PHONY : src/plane.s
+
+# target to generate assembly for a file
+src/plane.cpp.s:
+	$(MAKE) -f CMakeFiles/graphics_asgn1.dir/build.make CMakeFiles/graphics_asgn1.dir/src/plane.cpp.s
+.PHONY : src/plane.cpp.s
+
+src/rings.o: src/rings.cpp.o
+
+.PHONY : src/rings.o
+
+# target to build an object file
+src/rings.cpp.o:
+	$(MAKE) -f CMakeFiles/graphics_asgn1.dir/build.make CMakeFiles/graphics_asgn1.dir/src/rings.cpp.o
+.PHONY : src/rings.cpp.o
+
+src/rings.i: src/rings.cpp.i
+
+.PHONY : src/rings.i
+
+# target to preprocess a source file
+src/rings.cpp.i:
+	$(MAKE) -f CMakeFiles/graphics_asgn1.dir/build.make CMakeFiles/graphics_asgn1.dir/src/rings.cpp.i
+.PHONY : src/rings.cpp.i
+
+src/rings.s: src/rings.cpp.s
+
+.PHONY : src/rings.s
+
+# target to generate assembly for a file
+src/rings.cpp.s:
+	$(MAKE) -f CMakeFiles/graphics_asgn1.dir/build.make CMakeFiles/graphics_asgn1.dir/src/rings.cpp.s
+.PHONY : src/rings.cpp.s
 
 src/sea.o: src/sea.cpp.o
 
@@ -814,6 +1003,33 @@ src/timer.cpp.s:
 	$(MAKE) -f CMakeFiles/graphics_asgn1.dir/build.make CMakeFiles/graphics_asgn1.dir/src/timer.cpp.s
 .PHONY : src/timer.cpp.s
 
+src/topup.o: src/topup.cpp.o
+
+.PHONY : src/topup.o
+
+# target to build an object file
+src/topup.cpp.o:
+	$(MAKE) -f CMakeFiles/graphics_asgn1.dir/build.make CMakeFiles/graphics_asgn1.dir/src/topup.cpp.o
+.PHONY : src/topup.cpp.o
+
+src/topup.i: src/topup.cpp.i
+
+.PHONY : src/topup.i
+
+# target to preprocess a source file
+src/topup.cpp.i:
+	$(MAKE) -f CMakeFiles/graphics_asgn1.dir/build.make CMakeFiles/graphics_asgn1.dir/src/topup.cpp.i
+.PHONY : src/topup.cpp.i
+
+src/topup.s: src/topup.cpp.s
+
+.PHONY : src/topup.s
+
+# target to generate assembly for a file
+src/topup.cpp.s:
+	$(MAKE) -f CMakeFiles/graphics_asgn1.dir/build.make CMakeFiles/graphics_asgn1.dir/src/topup.cpp.s
+.PHONY : src/topup.cpp.s
+
 src/utils.o: src/utils.cpp.o
 
 .PHONY : src/utils.o
@@ -840,6 +1056,33 @@ src/utils.s: src/utils.cpp.s
 src/utils.cpp.s:
 	$(MAKE) -f CMakeFiles/graphics_asgn1.dir/build.make CMakeFiles/graphics_asgn1.dir/src/utils.cpp.s
 .PHONY : src/utils.cpp.s
+
+src/volcano.o: src/volcano.cpp.o
+
+.PHONY : src/volcano.o
+
+# target to build an object file
+src/volcano.cpp.o:
+	$(MAKE) -f CMakeFiles/graphics_asgn1.dir/build.make CMakeFiles/graphics_asgn1.dir/src/volcano.cpp.o
+.PHONY : src/volcano.cpp.o
+
+src/volcano.i: src/volcano.cpp.i
+
+.PHONY : src/volcano.i
+
+# target to preprocess a source file
+src/volcano.cpp.i:
+	$(MAKE) -f CMakeFiles/graphics_asgn1.dir/build.make CMakeFiles/graphics_asgn1.dir/src/volcano.cpp.i
+.PHONY : src/volcano.cpp.i
+
+src/volcano.s: src/volcano.cpp.s
+
+.PHONY : src/volcano.s
+
+# target to generate assembly for a file
+src/volcano.cpp.s:
+	$(MAKE) -f CMakeFiles/graphics_asgn1.dir/build.make CMakeFiles/graphics_asgn1.dir/src/volcano.cpp.s
+.PHONY : src/volcano.cpp.s
 
 # Help Target
 help:
@@ -887,33 +1130,60 @@ help:
 	@echo "... BulletCollision"
 	@echo "... BulletDynamics"
 	@echo "... LinearMath"
-	@echo "... src/ball.o"
-	@echo "... src/ball.i"
-	@echo "... src/ball.s"
+	@echo "... src/bomb.o"
+	@echo "... src/bomb.i"
+	@echo "... src/bomb.s"
+	@echo "... src/checkpoint.o"
+	@echo "... src/checkpoint.i"
+	@echo "... src/checkpoint.s"
 	@echo "... src/color.o"
 	@echo "... src/color.i"
 	@echo "... src/color.s"
+	@echo "... src/compass.o"
+	@echo "... src/compass.i"
+	@echo "... src/compass.s"
+	@echo "... src/display.o"
+	@echo "... src/display.i"
+	@echo "... src/display.s"
 	@echo "... src/input.o"
 	@echo "... src/input.i"
 	@echo "... src/input.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/missile.o"
+	@echo "... src/missile.i"
+	@echo "... src/missile.s"
 	@echo "... src/nonedit.o"
 	@echo "... src/nonedit.i"
 	@echo "... src/nonedit.s"
 	@echo "... src/other_handlers.o"
 	@echo "... src/other_handlers.i"
 	@echo "... src/other_handlers.s"
+	@echo "... src/parachute.o"
+	@echo "... src/parachute.i"
+	@echo "... src/parachute.s"
+	@echo "... src/plane.o"
+	@echo "... src/plane.i"
+	@echo "... src/plane.s"
+	@echo "... src/rings.o"
+	@echo "... src/rings.i"
+	@echo "... src/rings.s"
 	@echo "... src/sea.o"
 	@echo "... src/sea.i"
 	@echo "... src/sea.s"
 	@echo "... src/timer.o"
 	@echo "... src/timer.i"
 	@echo "... src/timer.s"
+	@echo "... src/topup.o"
+	@echo "... src/topup.i"
+	@echo "... src/topup.s"
 	@echo "... src/utils.o"
 	@echo "... src/utils.i"
 	@echo "... src/utils.s"
+	@echo "... src/volcano.o"
+	@echo "... src/volcano.i"
+	@echo "... src/volcano.s"
 .PHONY : help
 
 

@@ -41,11 +41,11 @@ void reshapeWindow(GLFWwindow *window, int width, int height) {
     // set the projection matrix as perspective
     glMatrixMode (GL_PROJECTION);
     glLoadIdentity ();
-    gluPerspective (fov, (GLfloat) fbwidth / (GLfloat) fbheight, 0.1, 500.0);
+    gluPerspective (fov, (GLfloat) fbwidth / (GLfloat) fbheight, 0.1, 2000.0);
     // Store the projection matrix in a variable for future use
     // Perspective projection for 3D views
-    Matrices.projection = glm::perspective (fov, (GLfloat) fbwidth / (GLfloat) fbheight, 0.1f, 500.0f);
+    Matrices.projection = glm::perspective (fov, (GLfloat) fbwidth / (GLfloat) fbheight, 0.1f, 2000.0f);
 
     // Ortho projection for 2D views
-    // reset_screen();
+    reset_screen();
 }

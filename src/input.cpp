@@ -54,7 +54,7 @@ void keyboardChar(GLFWwindow *window, unsigned int key) {
     switch (key) {
     case 'Q':
     case 'q':
-        quit(window);
+        // quit(window);
         break;
     default:
         break;
@@ -66,10 +66,10 @@ void mouseButton(GLFWwindow *window, int button, int action, int mods) {
     switch (button) {
     case GLFW_MOUSE_BUTTON_LEFT:
         if (action == GLFW_PRESS) {
-            // Do something
+            mouse_pressed = true;
             return;
         } else if (action == GLFW_RELEASE) {
-            // Do something
+            mouse_pressed = false;
         }
         break;
     // case GLFW_MOUSE_BUTTON_RIGHT:
@@ -82,6 +82,6 @@ void mouseButton(GLFWwindow *window, int button, int action, int mods) {
     }
 }
 
-void scroll_callback(GLFWwindow *window, double xoffset, double yoffset) {
-    // Do something
-}
+// void scroll_callback(GLFWwindow *window, double xoffset, double yoffset) {
+//     // Do something
+// }
